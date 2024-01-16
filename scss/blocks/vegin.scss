@@ -1,0 +1,34 @@
+.vegin__food {
+    background-image: url(../../images/vegin/vegin__bg.png);
+    max-width: 1197px;
+    height: 459px;
+    margin: auto;
+
+    h2 {
+        @include text($white, $font-main, 60px, normal, 600, normal);
+        text-align: center;
+        margin: auto;
+        padding-top: 110px;
+        max-width: 799px;
+    }
+
+    button {
+        width: 210px;
+        height: 79px;
+        flex-shrink: 0;
+        background-color: $green;
+        color: $white;
+        margin-top: 37px;
+        margin-left: 480px;
+        transition: 0.5s;
+    }
+    button:hover{
+        background-color: $features-button;
+        color:$green;
+        cursor: pointer;
+    }
+
+    .arrow {
+        margin-left: 23.59px;
+    }
+}

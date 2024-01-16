@@ -1,0 +1,40 @@
+.benefits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .salat{
+        width: 541px;
+height: 608px;
+flex-shrink: 0;
+background-color: $benefit-bg;
+margin-top: 133px;
+margin-left: 106px;
+padding-left: 48px;
+    }
+}
+
+.info {
+    margin-left: 731px;
+    position: absolute;
+    p{
+        @include text($text, $font-main, 15px, normal, 500, normal);
+        margin-top: 222px;
+    }
+    h2{
+        @include text($text, $font-main, 60px, normal, 500, normal);
+        max-width: 537px;
+        margin-top: 20px
+    }
+    ul{
+        margin-top: 67px;
+        
+    }
+    img{
+        margin-right: 21px;
+    }
+    li{
+        @include text($text, $font-main, 16px, normal, 400, normal);
+       margin-bottom: 21px;
+      display: flex;
+      align-items: center;
+    }
+}

@@ -1,0 +1,67 @@
+.product {
+    max-width: 1197px ;
+    p{
+        @include text($text, $font-main, 15px, normal, 500, normal);
+       
+    }
+    h2{
+        @include text($text, $font-main, 60px, normal, 500, normal);
+       
+        margin-top: 20px;
+    } 
+    margin: 199.75px auto 0;
+}
+
+.blocks__2{
+    width: 1197.548px;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57.5px;
+    margin-bottom: 194px;
+}
+.block {
+    .vega{
+       max-width: 190px;
+       height: 190px;
+       margin-top: 25px;
+       margin-left: 40px;
+    }
+    width: 268px;
+height: 443px;
+border: 2.5px solid  rgba(118, 118, 117, 0.25);
+
+p{
+    @include text($text, $font-main, 20px, normal, 400, normal);
+ margin-top: 41px;
+ margin-left: 58px;
+}
+.price{
+    @include text($green, $font-main, 20px, normal, 400, normal);
+    margin-top: 25px;
+    margin-left: 105px;
+}
+button{
+    width: 177px;
+height: 57px;
+border: 2px solid $green;
+background-color: $white;
+margin-left: 47px;
+margin-top: 27px;
+cursor: pointer;
+span{
+    @include text($green, $font-main, 16px, normal, 400, normal);
+    
+}
+.arrow{
+    margin-left: 31.19px;
+}
+}
+}
+.block:hover{
+    border: 2.5px solid $green;
+}
+button:hover{
+        background-color: $features-button;
+        border: 2px solid $features-button;
+    }

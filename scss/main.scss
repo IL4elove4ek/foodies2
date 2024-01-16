@@ -1,0 +1,18 @@
+@import './base/reset.scss';
+@import './base/mixins.scss';
+@import './base/vars.scss';
+@import './blocks/header.scss';
+@import './blocks/features.scss';
+@import './blocks/benefits.scss';
+@import './blocks/stars.scss';
+@import './blocks/sec__features.scss';
+@import './blocks/product.scss';
+@import './blocks/vegin.scss';
+@import './blocks/footer.scss';
+
+
+body{
+    max-width: 1440px;
+    margin: auto;
+}
+    

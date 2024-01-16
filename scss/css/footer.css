@@ -1,0 +1,13 @@
+.footer {
+  max-width: 1440px;
+  margin: 108px auto;
+}
+
+.footer__logo h3 {
+  color: var(--06-c-167, #06C167);
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}/*# sourceMappingURL=footer.css.map */

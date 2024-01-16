@@ -1,0 +1,16 @@
+.vegin__food {
+  background-image: url(../../images/vegin/vegin__bg.png);
+  width: 1170px;
+  height: 459px;
+  margin: auto;
+}
+.vegin__food h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 799px;
+}/*# sourceMappingURL=vegin.css.map */

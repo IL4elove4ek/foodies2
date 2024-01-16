@@ -1,0 +1,61 @@
+.stars {
+    max-width: 1179px;
+    
+    margin: 183px auto 0;
+   
+    .grid{
+        display: grid;
+    grid-template-columns: 1fr 1fr; 
+    }
+   
+   p{
+        @include text($text, $font-main, 15px, normal, 500, normal);
+    }
+    h2{
+        @include text($text, $font-main, 60px, normal, 500, normal);
+        width: 570px;
+        margin-top: 20px;
+    } 
+ button{
+    width: 233px;
+height: 79px;
+background-color: $green;
+margin-top: 51px;
+@include text($white, $font-main, 16px, normal, 400, normal);
+transition: 0.5s;
+cursor: pointer;
+ }
+ button:hover{
+    background-color: $features-button;
+    color: $green;
+    border: 1px solid $green;
+}
+}
+
+.statistics {
+    width: 502px;
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-between;
+    text-align: center;
+   h5{
+    @include text($green, $font-main, 40px, normal, 600, normal);
+   } 
+   p{
+    @include text($text, $font-main, 15px, normal, 400, normal);
+    
+opacity: 0.65;
+   }
+}
+
+.smuzie {
+    width: 541px;
+height: 608px;
+background-color: $stars-bg;
+margin-top: -300px ;
+margin-left: 59px;
+img{
+    margin-left: 96px;
+    position: absolute;
+}
+}

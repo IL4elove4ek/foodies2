@@ -1,0 +1,60 @@
+.sec__features {
+    max-width: 1199px;
+    margin: 190px auto 0;
+    .images{
+        width: 299.5px
+    }
+    p{
+        @include text($text, $font-main, 15px, normal, 500, normal);
+        text-align: center;
+    }
+    h2{
+        @include text($text, $font-main, 60px, normal, 500, normal);
+        text-align: center;
+        margin-top: 20px;
+    } 
+}
+
+.setka {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin-top: 70.75px ;
+
+}
+
+.color{
+    background-color: $features-bg;
+    width: 299.5px;
+
+flex-shrink: 0;
+ border: 2.5px solid $green;
+ h4{
+    @include text($text, $font-main, 32px, normal, 500, normal);
+    margin-left: 37.5px;
+    margin-top: 37px;
+ }
+ p{
+    @include text($text, $font-main, 16px, normal, 400, normal);
+    margin-left: 37.5px;
+    width: 210px;
+    text-align: left;
+    margin-top: 25px;
+ }
+ button{
+    width: 148px;
+height: 42px;
+flex-shrink: 0;
+background-color: $features-button;
+@include text($green, $font-main, 15px, normal, 500, normal);
+margin-left: 37.5px;
+margin-top: 38px;
+transition: 0.5s;
+cursor: pointer;
+ }
+ button:hover{
+    background-color: $green;
+    color: $features-button;
+    border: 1px solid $features-button;
+}
+}

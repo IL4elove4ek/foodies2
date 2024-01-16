@@ -1,0 +1,50 @@
+.features{
+    width: 1197.548px;
+
+
+}
+.features__lines {
+ 
+    margin-top: 88px;
+    
+        margin-left: 108.5px;
+   
+    h5{
+        @include text($text, $font-main, 18px, normal, 400, normal);
+        margin-bottom: 7px
+    }
+    p{
+        @include text($text, $font-main, 14px, normal, 500, normal);
+
+opacity: 0.75;
+    }
+}
+.blocks{
+    width: 1197.548px;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57.5px;
+    margin-bottom: 57.5px;
+    position: relative;
+    
+    img{
+        max-width: 70px;
+        height: 70px;
+    }
+.size {
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    
+}
+.size:hover{
+    transform: scale(1.2);
+
+}
+.pp{
+    display: flex;
+    flex-direction: column;
+    margin-left: 22.52px;
+}
+}
